@@ -57,4 +57,40 @@ git clone https://github.com/tuhin118/Net-Lag.git
 
 # 4. Navigate into the directory
 cd Net-Lag
-python3 net-lag.py
+python3 net-lag.py 
+```
+
+🔹 Option 2: Linux (Ubuntu / Debian / Kali)
+
+```bash
+# 1. Update system packages
+sudo apt update && sudo apt upgrade -y
+
+# 2. Install Python and Git
+sudo apt install python3 git -y
+
+# 3. Clone the repository
+git clone https://github.com/tuhin118/Net-Lag.git
+
+# 4. Navigate into the directory
+cd Net-Lag
+```
+
+---
+
+🚀 Usage
+
+1. Find your Router's Gateway IP
+   · On Android: Settings → Wi-Fi → Your Network → Gateway / Router
+   · On Linux: ip route | grep default
+2. Edit the target IP in net-lag.py
+      Open the file and locate:
+   ```python
+   TARGET_IP = "192.168.1.1"   # Replace with your router's IP
+   ```
+3. Run the script:
+   ```bash
+   python3 net-lag.py
+   ```
+4. To stop early: Press CTRL + C in the terminal.
+5. 
