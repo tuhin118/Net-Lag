@@ -57,6 +57,7 @@ git clone https://github.com/tuhin118/Net-Lag.git
 
 # 4. Navigate into the directory
 cd Net-Lag
+# 5. Run Termux
 python3 net-lag.py 
 ```
 
@@ -74,6 +75,8 @@ git clone https://github.com/tuhin118/Net-Lag.git
 
 # 4. Navigate into the directory
 cd Net-Lag
+# 5. Run Linux
+python3 net-lag.py
 ```
 
 ---
